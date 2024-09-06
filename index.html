@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikaneng's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3ba6f37d7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/background.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Porfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer.</p>
+                <h1>Hi, I'm <span>Ikaneng</span><br> Konyana from South Africa. </h1>
+            </div>
+        </div>
+    </div>
+    <!------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a budding web developer with a year of hands-on experience, I bring
+                        enthusiasm and a hunger to learn to every project. Proficient in front-end
+                        technologies like HTML5, CSS3, and JavaScript, I'm eager to expand my skill set
+                        and delve deeper into back-end development. My problem-solving skills and
+                        attention to detail ensure efficient project delivery, while my collaborative
+                        nature makes me a valuable asset to any team. I'm driven by a passion for
+                        creating user-friendly digital solutions and excited to contribute my skills to
+                        your projects.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Design Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Photography</span><br>Capturing moments with creativity and precision</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-2023</span><br>Sports Photographer at the University of the Western Cape</li>
+                        <li><span>2021-2023</span><br>Event Organizer at THELOOKOUT</li>
+                        
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>BSc Computer Science at UWC (Incomplete) </li>
+                        <li><span>2023</span><br>Intro to UI/UX certificate at Lewagon</li>
+                        <li><span>2024-current</span><br>Front-End course at ALX</li>
+                        
+                    </ul>
+                </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-----------Services------------>
+    <div id="services">
+        <div class="container"></div>
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Crafting responsive, visually stunning websites that are tailored to engage your audience and meet your business goals</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/ UX Design</h2>
+                <p>Designing intuitive and seamless user experiences with a focus on usability and aesthetics to ensure optimal interaction</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera-retro"></i>
+                <h2>Photography</h2>
+                <p>Capturing high-quality, professional images that tell a story and enhance your brand’s visual identity.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <!---------Portfolio--------->
+<div id="portfolio">
+    <div class="container"></div>
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-6.jpeg">
+                <div class="layer">
+                    <h3>Web App Design</h3>
+                    <p>This web application connects you to a gym instructor, who will give you tips to get to your body goal </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work-2">
+                <img src="images/portfolio (4).png">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>This web application connects you to a gym instructor, who will give you tips to get to your body goal </p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+               <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>My Photography</h3>
+                    <p>This web application connects you to a gym instructor, who will give you tips to get to your body goal </p>
+                    <a href="https://www.instagram.com/ikanshoot.jpeg?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+</div>
+<!------Contact--------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>konyanaikaneng@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0659349922</p>
+                <div class="social-icons">
+                    <a href="instagram.com/ikanshoot.jpeg/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="twitter.com/ikxneng"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/ikaneng-konyana-14a8a31ba/?originalSubdomain=za"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/MyCV.pdf" download class="btn btn2 ">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright (c) 2024 Ikaneng. </p>
+    </div>
+
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzTJeGNX5ku2QgAKajRihGB2S2ni6VI1CzjfQMWIy2uyAKHeKziskRop6WXTl_6caO7pA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+.then(response => {
+    msg.innerHTML = "Message sent successfully"
+    setTimeout(function(){
+        msg.innerHTML = ""
+    },5000)
+    form.reset()
+})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
