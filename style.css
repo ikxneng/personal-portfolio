@@ -100,6 +100,15 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: teal; 
 }
+
+#sidemenu a {
+    font-size: 20px; /* Adjust the value to your desired size */
+}
+
+#sidemenu i {
+    font-size: 24px; /* You can adjust this for the close icon */
+}
+
 /* ------- about ------*/ 
 .row{
     display: flex;
@@ -235,7 +244,6 @@ nav ul li a:hover::after{
     border-radius: 10px;
     display: block;
     padding: 30px;
-    padding-left: 20px;
     transition: transform 0.5s;
 }
 .layer{
@@ -365,7 +373,7 @@ form .btn2{
     margin-top: 20px;
 }
 
-/*------------- csss for small screen ---------*/
+/*------------- css for small screen ---------*/
 
 nav .fa-solid{
     display: none;
@@ -373,7 +381,7 @@ nav .fa-solid{
 nav .fa-solid{
     display: none;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 500px){
     .header-text{
         margin-top: 100%;
         font-size: 16px;
